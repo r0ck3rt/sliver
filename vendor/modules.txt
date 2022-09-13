@@ -1,4 +1,4 @@
-# github.com/AlecAivazis/survey/v2 v2.2.2
+# github.com/AlecAivazis/survey/v2 v2.3.6
 ## explicit; go 1.13
 github.com/AlecAivazis/survey/v2
 github.com/AlecAivazis/survey/v2/core
@@ -33,9 +33,6 @@ github.com/Microsoft/go-winio/pkg/guid
 # github.com/Ne0nd0g/go-clr v1.0.2
 ## explicit; go 1.13
 github.com/Ne0nd0g/go-clr
-# github.com/StackExchange/wmi v1.2.1
-## explicit; go 1.13
-github.com/StackExchange/wmi
 # github.com/VirusTotal/vt-go v0.0.0-20210528074736-45bbe34cc8ab
 ## explicit; go 1.14
 github.com/VirusTotal/vt-go
@@ -88,7 +85,7 @@ github.com/awgh/rawreader
 github.com/boombuler/barcode
 github.com/boombuler/barcode/qr
 github.com/boombuler/barcode/utils
-# github.com/cheggaaa/pb/v3 v3.0.5
+# github.com/cheggaaa/pb/v3 v3.1.0
 ## explicit; go 1.12
 github.com/cheggaaa/pb/v3
 github.com/cheggaaa/pb/v3/termutil
@@ -199,7 +196,7 @@ github.com/gobwas/pool/pbytes
 ## explicit; go 1.15
 github.com/gobwas/ws
 github.com/gobwas/ws/wsutil
-# github.com/gofrs/uuid v4.0.0+incompatible
+# github.com/gofrs/uuid v4.3.0+incompatible
 ## explicit
 github.com/gofrs/uuid
 # github.com/golang/protobuf v1.5.2
@@ -310,7 +307,7 @@ github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.14
 ## explicit; go 1.12
 github.com/mattn/go-isatty
-# github.com/mattn/go-runewidth v0.0.9
+# github.com/mattn/go-runewidth v0.0.12
 ## explicit; go 1.9
 github.com/mattn/go-runewidth
 # github.com/mattn/go-sqlite3 v1.14.15
@@ -330,6 +327,9 @@ github.com/moloch--/memmod
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
+# github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c
+## explicit; go 1.14
+github.com/power-devops/perfstat
 # github.com/pquerna/otp v1.3.0
 ## explicit; go 1.12
 github.com/pquerna/otp
@@ -338,15 +338,18 @@ github.com/pquerna/otp/totp
 # github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0
 ## explicit; go 1.12
 github.com/remyoudompheng/bigfft
-# github.com/shirou/gopsutil/v3 v3.21.10
+# github.com/rivo/uniseg v0.2.0
+## explicit; go 1.12
+github.com/rivo/uniseg
+# github.com/shirou/gopsutil/v3 v3.22.8
 ## explicit; go 1.15
 github.com/shirou/gopsutil/v3/internal/common
 github.com/shirou/gopsutil/v3/mem
-# github.com/sirupsen/logrus v1.8.1
+# github.com/sirupsen/logrus v1.9.0
 ## explicit; go 1.13
 github.com/sirupsen/logrus
-# github.com/spf13/cobra v1.1.1
-## explicit; go 1.12
+# github.com/spf13/cobra v1.5.0
+## explicit; go 1.15
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
 ## explicit; go 1.12
@@ -362,6 +365,9 @@ github.com/thedevsaddam/gojsonq/v2
 github.com/things-go/go-socks5
 github.com/things-go/go-socks5/bufferpool
 github.com/things-go/go-socks5/statute
+# github.com/yusufpapurcu/wmi v1.2.2
+## explicit; go 1.16
+github.com/yusufpapurcu/wmi
 # golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90
 ## explicit; go 1.17
 golang.org/x/crypto/acme
