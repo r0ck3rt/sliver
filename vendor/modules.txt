@@ -213,6 +213,13 @@ github.com/golang/protobuf/ptypes/timestamp
 # github.com/google/btree v1.0.1
 ## explicit; go 1.12
 github.com/google/btree
+# github.com/google/go-cmp v0.5.8
+## explicit; go 1.13
+github.com/google/go-cmp/cmp
+github.com/google/go-cmp/cmp/internal/diff
+github.com/google/go-cmp/cmp/internal/flags
+github.com/google/go-cmp/cmp/internal/function
+github.com/google/go-cmp/cmp/internal/value
 # github.com/google/uuid v1.3.0
 ## explicit
 github.com/google/uuid
@@ -354,14 +361,12 @@ github.com/onsi/ginkgo/reporters/stenographer
 github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable
 github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty
 github.com/onsi/ginkgo/types
-# github.com/onsi/gomega v1.10.0
-## explicit
+# github.com/onsi/gomega v1.20.2
+## explicit; go 1.18
 github.com/onsi/gomega
 github.com/onsi/gomega/format
-github.com/onsi/gomega/internal/assertion
-github.com/onsi/gomega/internal/asyncassertion
-github.com/onsi/gomega/internal/oraclematcher
-github.com/onsi/gomega/internal/testingtsupport
+github.com/onsi/gomega/internal
+github.com/onsi/gomega/internal/gutil
 github.com/onsi/gomega/matchers
 github.com/onsi/gomega/matchers/support/goraph/bipartitegraph
 github.com/onsi/gomega/matchers/support/goraph/edge
@@ -445,7 +450,7 @@ golang.org/x/crypto/ssh/terminal
 # golang.org/x/mod v0.5.1
 ## explicit; go 1.17
 golang.org/x/mod/semver
-# golang.org/x/net v0.0.0-20220225172249-27dd8689420f
+# golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 ## explicit; go 1.17
 golang.org/x/net/bpf
 golang.org/x/net/dns/dnsmessage
@@ -592,8 +597,8 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/test/bufconn
-# google.golang.org/protobuf v1.27.1
-## explicit; go 1.9
+# google.golang.org/protobuf v1.28.0
+## explicit; go 1.11
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
@@ -636,9 +641,6 @@ gopkg.in/AlecAivazis/survey.v1/terminal
 # gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 ## explicit
 gopkg.in/tomb.v1
-# gopkg.in/yaml.v2 v2.4.0
-## explicit; go 1.15
-gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
